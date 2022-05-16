@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
@@ -20,6 +24,9 @@
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
+    <h4>Belly button bacteria taken from test subjects is displayed on a "per test subject" basis.  
+      This data is displayed/updated for each individual when "Test Subject ID No." is chosen from the dropdown menu. </h4>
+    <br>
     <div class="row">
       <div class="col-md-2">
         <div class="well">
@@ -33,17 +40,26 @@
           </div>
           <div id="sample-metadata" class="panel-body"></div>
         </div>
+      <p>Details for each Test Subject are shown for the chosen "Test Subject ID No."</p>
       </div>
       <div class="col-md-5">
         <div id="bar-plot"></div>
+        <p> The bar chart above displays the top 10 bacterial species (OTUs) and their corresponding number of samples for each subject ID.  In addition, 
+          the "OTU Labels" are displayed when the mouse is hovered over each item.</p>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
+        <p>The gauge chart above displays the recorded number of belly button washes for the chosen Subject ID.</p>
       </div>
     </div>
+
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
+        <p>The bubble chart above displays the complete dataset for each Subject ID.  The OTU ID's are plotted on the x-axis, while the y-axis displays the number of samples.
+            The bubble sizes also represent the number of samples to easily show the results for each OTU ID.   In addition, the plotted datapoints and "OTU Labels" are displayed when the mouse is 
+            hovered over each item.
+        </p>
       </div>
     </div>
   </div>
