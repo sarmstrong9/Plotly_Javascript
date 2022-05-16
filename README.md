@@ -2,15 +2,13 @@
 
 ## Purpose of the Challenge
 
-Build an interactive dashboard using HTML, JavaScript, and Plotly to present data about bacteria found in a test subjects belly button.  This bacteria data is presented in a JSON file and is being used to determine certain bacteria strains associated with flavors of lab grown meat, and presenting this data on an easy to read/update webpage will help the scientists correlate bacteria strains to flavor profiles.
+Build an interactive dashboard using HTML, JavaScript, and Plotly to present data about bacteria found in a test subjects belly button.  This bacteria data is presented in a JSON file and is being used to determine certain bacteria strains associated with flavors of lab grown meat.  The data is then presented on an easy to read/update webpage that will help the scientists correlate bacteria strains to flavor profiles.
 
 This assignment uses JavaScript and takes advantage of its power in manipulating datasets. Data is filtered and transformations are applied to each element in the dataset, often with just a few lines of code.  In addition, the other tools used for this project were D3 to detect a change on the page when a user selects a new Subject ID No. and Bootstrap to help build the HTML structure and formatting of the webpage.  
 
 
 
-In the final visualization of the belly button data, a user can select an individual from a dropdown menu. Once a person's ID number is selected, the demographic information of that individual is displayed, such as location, sex, and age, will be displayed.
-
-The additional datasets then visualy show the bacterial data for each Subject ID. Specifically, her volunteers should be able to identify the top 10 bacterial species in their belly buttons. That way, if Improbable Beef identifies a species as a candidate to manufacture synthetic beef, the volunteers will be able to identify whether that species is found in their navel.
+In the final visualization of the belly button data, a user can select an individual from a dropdown menu. Once a person's ID number is selected, the demographic information of that individual is displayed, such as location, sex, and age, will be displayed.  The additional datasets then visually show the bacterial data for each Subject ID. Specifically, the volunteers should be able to identify the top 10 bacterial species in their belly buttons. That way, if Improbable Beef identifies a species as a candidate to manufacture synthetic beef, the volunteers will be able to identify whether that species is found in their navel.
 
 The final deliverables of this challenge are:
 - Deliverable 1: Create a Horizontal Bar Chart
